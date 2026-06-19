@@ -1,0 +1,30 @@
+# Dataset
+aclImdb/
+aclImdb_v1.tar.gz
+ 
+# Trained models / embeddings (large binary files — don't commit)
+*.model
+*.pt
+*.bin
+word2vec_imdb.model*
+sentiment_rnn_inference.pt
+best_rnn_model.pt
+ 
+# Jupyter
+.ipynb_checkpoints/
+ 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+ 
+# OS
+.DS_Store
+Thumbs.db
+ 
+# IDE
+.vscode/
+.idea/
